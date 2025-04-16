@@ -1,4 +1,6 @@
 # Experiment 2: Blockchain-Based Crowdfunding (Kickstarter Alternative)
+## Name   : V Raksha Dharanika
+## Reg no : 212223230167
 ## Aim:
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
@@ -16,7 +18,7 @@ If the goal is not met, contributors can withdraw their funds.
 
 
 ## Program:
-```
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -61,6 +63,8 @@ contract Crowdfunding {
 }
 ```
 # Expected Output:
+![image](https://github.com/user-attachments/assets/15d635bf-7749-4fe6-9077-e7ce06af4f67)
+
 Users can contribute ETH to the campaign.
 
 
