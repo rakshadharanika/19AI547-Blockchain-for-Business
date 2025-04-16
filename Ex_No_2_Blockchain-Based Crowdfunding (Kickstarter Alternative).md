@@ -5,17 +5,15 @@
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
 ## Algorithm:
-A project owner starts a campaign with a funding goal and deadline.
+1.The project creator deploys a crowdfunding smart contract with a funding goal and deadline.
 
+2.Contributors send ETH to the contract before the deadline, and their contributions are recorded.
 
-Contributors can send ETH to the campaign.
+3.The contract tracks the total amount raised during the campaign.
 
+4.If the goal is met before the deadline, the creator can withdraw the funds.
 
-If the goal is met before the deadline, funds are released to the project owner.
-
-
-If the goal is not met, contributors can withdraw their funds.
-
+5.If the goal is not met, contributors can claim refunds after the deadline.
 
 ## Program:
 ```py
@@ -64,7 +62,7 @@ contract Crowdfunding {
 ```
 # Expected Output:
 ![image](https://github.com/user-attachments/assets/15d635bf-7749-4fe6-9077-e7ce06af4f67)
-
+```
 Users can contribute ETH to the campaign.
 
 
@@ -72,7 +70,7 @@ If the goal is met, the creator can withdraw funds.
 
 
 If the goal is not met, contributors can claim a refund.
-
+```
 
 # High-Level Overview:
 Teaches decentralized fundraising.
@@ -81,3 +79,4 @@ Teaches decentralized fundraising.
 Avoids fraud by ensuring funds are only transferred if the goal is met.
 
 # RESULT: 
+The crowdfunding smart contract was successfully implemented to securely manage donations, ensuring funds are released only if the campaign goal is met.
