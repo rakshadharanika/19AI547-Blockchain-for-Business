@@ -1,4 +1,6 @@
 ### Experiment 1: Decentralized Certificate Verification
+## Name   : V Raksha Dharanika
+## Reg no : 212223230167
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
