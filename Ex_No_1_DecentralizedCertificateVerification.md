@@ -1,4 +1,4 @@
-### Experiment 1: Decentralized Certificate Verification
+# Experiment 1: Decentralized Certificate Verification
 ## Name   : V Raksha Dharanika
 ## Reg no : 212223230167
 ## Aim:
