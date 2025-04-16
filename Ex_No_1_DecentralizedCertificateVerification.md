@@ -13,7 +13,7 @@
 6.Allow users to verify certificates by re-hashing input data and checking its existence on-chain.
 
 ## Program:
-```
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 contract CertificateVerification {
