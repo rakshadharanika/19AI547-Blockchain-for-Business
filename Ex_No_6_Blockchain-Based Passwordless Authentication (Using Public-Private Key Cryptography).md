@@ -1,4 +1,6 @@
 # Experiment 6: Blockchain-Based Passwordless Authentication (Using Public-Private Key Cryptography)
+## Name   : V Raksha Dharanika
+## Reg No : 212223230167
 # Aim:
 To implement a secure passwordless authentication system using public-private key cryptography on Ethereum. This prevents phishing and password leaks.
 
@@ -41,6 +43,8 @@ contract PasswordlessAuth {
 ```
 
 # Expected Output:
+![image](https://github.com/user-attachments/assets/76e2e9ae-1f82-439b-926a-455b30b62592)
+
 Users can register without a password.
 
 
