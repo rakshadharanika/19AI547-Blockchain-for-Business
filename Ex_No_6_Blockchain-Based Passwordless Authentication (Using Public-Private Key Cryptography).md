@@ -17,9 +17,9 @@ The user signs the challenge using their private key and sends the signature bac
 4.Signature Verification:
 The system (or smart contract) uses the user’s public key to verify the signature.
 
- If valid, the login is successful.
+      If valid, the login is successful.
 
- If invalid, access is denied.
+      If invalid, access is denied.
 
 
 # Program:
