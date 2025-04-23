@@ -1,8 +1,12 @@
 # Experiment 5: Zero-Knowledge Proof (ZK) Private Voting System
+### Name   : V Raksha Dharanika
+### Reg No : 212223230167
 # Aim:
 To implement a fully private and transparent voting system using Zero-Knowledge Proofs (ZKPs). This ensures that votes are counted fairly without revealing who voted for whom.
 
 # Algorithm:
+
+
 Step 1: Voter Registration
 Each voter generates a secret vote key and submits a commitment (hashed vote) to the contract.
 
@@ -21,7 +25,7 @@ Once voting ends, the contract reveals the final tally without linking votes to 
 
 
 # Program:
-```
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -59,11 +63,14 @@ contract ZKVoting {
 # Expected Output:
 Voters commit their votes privately.
 
+![image](https://github.com/user-attachments/assets/1ca6783e-6ca7-40f0-8eed-d1eb49e5c111)
 
 When revealed, the contract verifies correctness but keeps votes anonymous.
 
+![image](https://github.com/user-attachments/assets/046fe990-55e2-4d0f-93e9-23afbbd99d55)
 
 Final result is publicly verifiable without exposing individual votes.
+![image](https://github.com/user-attachments/assets/3c4d2be5-7bd4-41e0-9fae-2369cb904f97)
 
 
 
@@ -77,3 +84,6 @@ Prevents vote tampering while maintaining voter privacy.
 Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
+
+A private and transparent voting system was successfully implemented using Zero-Knowledge Proofs.
+
