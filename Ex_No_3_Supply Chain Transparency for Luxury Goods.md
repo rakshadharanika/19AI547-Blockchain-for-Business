@@ -1,20 +1,24 @@
+# Ex_No_3_Supply Chain Transparency for Luxury Good
+### Name   : V Raksha Dharanika
+### Reg No : 212223230167
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
-The manufacturer records product creation details on-chain.
+
+1.The manufacturer records product creation details on-chain.
 
 
-The product moves through different supply chain checkpoints.
+2.The product moves through different supply chain checkpoints.
 
 
-The ownership of the product can be transferred securely.
+3.The ownership of the product can be transferred securely.
 
 
-Buyers can verify the product’s authenticity.
+4.Buyers can verify the product’s authenticity.
 
 
 # Program:
-```
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -49,14 +53,17 @@ contract LuxurySupplyChain {
 }
 ```
 # Expected Output:
-A luxury good (e.g., a Rolex watch) is registered on-chain.
+1.A luxury good (e.g., a Rolex watch) is registered on-chain.
+![image](https://github.com/user-attachments/assets/a60288eb-e4e9-4d7c-996f-4cc71f0850e3)
 
 
-Ownership is transferred at every checkpoint.
+2.Ownership is transferred at every checkpoint.
+![image](https://github.com/user-attachments/assets/06c33e65-7f38-4ed4-88c6-888876b809e3)
 
 
-Buyers can check the authenticity before purchasing.
+3.Buyers can check the authenticity before purchasing.
 
+![image](https://github.com/user-attachments/assets/939834da-c835-4ffa-8334-39cf81620083)
 
 # High-Level Overview:
 Helps prevent counterfeit luxury goods.
@@ -66,3 +73,4 @@ Teaches real-world supply chain use cases.
 
 # RESULT : 
 
+Successfully developed a smart contract to track and verify the supply chain of luxury goods, ensuring secure ownership transfer and product authenticity.
