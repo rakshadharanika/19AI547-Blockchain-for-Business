@@ -1,24 +1,29 @@
 # Experiment 6: Blockchain-Based Passwordless Authentication (Using Public-Private Key Cryptography)
-## Name   : V Raksha Dharanika
-## Reg No : 212223230167
+### Name   : V Raksha Dharanika
+### Reg No : 212223230167
 # Aim:
 To implement a secure passwordless authentication system using public-private key cryptography on Ethereum. This prevents phishing and password leaks.
 
 # Algorithm:
-Step 1: User Registration
-A user registers with their Ethereum public key (instead of a password).
+1.User Registration:
+The user registers by submitting their Ethereum public key to the system (no password required).
 
+2.Challenge Generation:
+When the user wants to log in, the system generates a random challenge message and sends it to the user.
 
-Step 2: Login Process
-When logging in, the user signs a random challenge message using their private key.
+3.Signature Creation:
+The user signs the challenge using their private key and sends the signature back to the system.
 
+4.Signature Verification:
+The system (or smart contract) uses the user’s public key to verify the signature.
 
-The smart contract verifies the signature using the user’s public key.
+ If valid, the login is successful.
 
+ If invalid, access is denied.
 
 
 # Program:
-```
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -43,16 +48,18 @@ contract PasswordlessAuth {
 ```
 
 # Expected Output:
-![image](https://github.com/user-attachments/assets/76e2e9ae-1f82-439b-926a-455b30b62592)
 
-Users can register without a password.
+1.Users can register without a password.
 
+![image](https://github.com/user-attachments/assets/7324a859-75ec-4c7d-88d9-e555853215f2)
 
-Users sign a challenge with their private key for authentication.
+2.Users sign a challenge with their private key for authentication.
 
+![image](https://github.com/user-attachments/assets/c2f2af30-fe7e-41d8-becb-ce6351d9cca5)
 
-The smart contract verifies signatures to confirm identity.
+3.The smart contract verifies signatures to confirm identity.
 
+![image](https://github.com/user-attachments/assets/e65eafbc-86c7-4106-a28b-d32c5cafb499)
 
 
 # High-Level Overview:
@@ -65,3 +72,4 @@ Uses Ethereum's built-in cryptographic functions.
 Inspired by Web3 login solutions like MetaMask authentication.
 
 # RESULT: 
+Successfully implemented a passwordless authentication system using Ethereum public-private key cryptography.
