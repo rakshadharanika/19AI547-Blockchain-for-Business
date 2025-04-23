@@ -49,15 +49,15 @@ contract PasswordlessAuth {
 
 # Expected Output:
 
-1.Users can register without a password.
+1.Passwordless Registration Using Wallet Address.
 
 ![image](https://github.com/user-attachments/assets/7324a859-75ec-4c7d-88d9-e555853215f2)
 
-2.Users sign a challenge with their private key for authentication.
+2.Authentication via Cryptographic Signature.
 
 ![image](https://github.com/user-attachments/assets/c2f2af30-fe7e-41d8-becb-ce6351d9cca5)
 
-3.The smart contract verifies signatures to confirm identity.
+3.Smart Contract Verifies User Signature On-Chain.
 
 ![image](https://github.com/user-attachments/assets/e65eafbc-86c7-4106-a28b-d32c5cafb499)
 
