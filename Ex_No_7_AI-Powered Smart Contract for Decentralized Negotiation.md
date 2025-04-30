@@ -1,6 +1,6 @@
 # Experiment 7: AI-Powered Smart Contract for Decentralized Negotiation
-# Aim:
-# To create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model.
+## Aim:
+ To create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model.
 
 Step 1:
 AI-Powered Dynamic Pricing Seller lists an item with a minimum price and negotiation range.
@@ -28,7 +28,7 @@ If the buyer accepts, the transaction is executed on-chain.
 Step 8: Settlement and Price Learning
 Every completed transaction updates the price learning algorithm to refine future pricing decisions.
 
-# Program:
+## Program:
 ### NAME  : V RAKSHA DHARANIKA
 ### REG NO: 212223230167
 ```
@@ -87,7 +87,7 @@ contract AIPoweredNegotiation {
 }
 ```
 
-# Expected Output:
+## Expected Output:
 Buyers submit offers, and the contract auto-negotiates the price.
 ![image](https://github.com/user-attachments/assets/2f022004-5522-44c7-9c75-f119c1b8bfa6)
 
@@ -101,7 +101,7 @@ If the offer is too low, the contract suggests a counteroffer.
 ![image](https://github.com/user-attachments/assets/b6c58eb9-8007-4896-b19b-1073cf0c9af6)
 
 
-# High-Level Overview:
+## High-Level Overview:
 First-of-its-kind AI-powered pricing contract.
 
 
@@ -113,6 +113,6 @@ Can be extended to AI oracles for real-time market data.
 
 Inspired by AI-enhanced commerce and eBay-like decentralized auctions.
 
-# RESULT:
+## RESULT:
 
 Thus,Zero-Knowledge Proof (ZK) Private Voting System has been created and successfully executed.
