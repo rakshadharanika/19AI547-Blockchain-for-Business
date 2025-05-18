@@ -1,32 +1,26 @@
 # Experiment 4: DeFi Lending and Borrowing Protocol
+### Name : V Raksha Dharanika
+### Reg No : 212223230167
 # Aim:
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
 # Algorithm:
-Step 1: Setup Lending and Borrowing Mechanism
-Users deposit ETH into the contract as liquidity.
+1.Deploy the contract and initialize required parameters like interest rate and liquidation threshold.
 
+2.Users deposit ETH into the contract, which adds to the liquidity pool.
 
-Depositors receive interest based on their deposits.
+3.Users can borrow ETH by providing collateral greater than or equal to 150% of the borrowed amount.
 
+4.Interest on borrowed funds is calculated dynamically based on the pool’s utilization rate.
 
-Borrowers can borrow ETH but must provide collateral (e.g., 150% of the borrowed amount).
+5.If a borrower’s collateral drops below the required threshold (150% of the borrowed amount), they become eligible for liquidation.
 
-
-Interest on borrowed funds is calculated dynamically based on utilization rate.
-
-
-Step 2: Implement Overcollateralization
-If a borrower’s collateral value drops below a certain liquidation threshold, their collateral is liquidated to repay the debt.
-
-
-Step 3: Allow Liquidation
-If collateral < liquidation threshold, liquidators can repay the borrower's debt and claim their collateral at a discount.
+6.Any user (a liquidator) can repay an undercollateralized borrower's debt and claim their collateral at a discounted rate.
 
 
 
-Program:
-```
+# Program:
+```py
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -77,21 +71,37 @@ contract DeFiLending {
 Users can deposit ETH and earn interest.
 
 
+
+![image](https://github.com/user-attachments/assets/63e1994e-9ca7-4bee-b657-b3f733076c07)
+
+
+
 Users can borrow ETH by providing collateral.
 
 
-If collateral < 150% of borrowed amount, liquidators can seize the collateral.
+
+![image](https://github.com/user-attachments/assets/aaf84ac1-8b0f-4e58-b448-b5e98bd417f9)
+
+
+
+If Collateral ≥ 150% borrowed amount,liquidation not allowed.
+
+
+
+![image](https://github.com/user-attachments/assets/3eecb5db-5ddc-4e49-8125-bd98388068c2)
 
 
 
 # High-Level Overview:
-Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
+1.Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
 
 
-Introduces risk management: overcollateralization and liquidation.
+2.Introduces risk management: overcollateralization and liquidation.
 
 
-Directly related to DeFi protocols like Aave and Compound.
+3.Directly related to DeFi protocols like Aave and Compound.
 
 # RESULT : 
+Thus,To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
+
 
